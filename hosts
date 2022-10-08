@@ -1,0 +1,6 @@
+[master]
+172.16.7.4 kubernetes_role="master" ansible_user=ubuntu
+#kubernetes_role="master"
+[worker]
+172.16.6.100 kubernetes_role="node" ansible_user=ubuntu
+#kubernetes_role="node"
