@@ -9,7 +9,7 @@ sudo sed -i --follow-symlinks 's/^SELINUX=enforcing/SELINUX=disabled/' /etc/sysc
 ```
 sudo sed -i '/swap/d' /etc/fstab
 
-sudo swapoff -a
+  sudo swapoff -a
 ```
 
 # Thay hostname
