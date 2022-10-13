@@ -8,7 +8,6 @@ sudo sed -i --follow-symlinks 's/^SELINUX=enforcing/SELINUX=disabled/' /etc/sysc
 # Tat swap
 ```
 sudo sed -i '/swap/d' /etc/fstab
-
   sudo swapoff -a
 ```
 
